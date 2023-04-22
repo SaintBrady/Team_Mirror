@@ -19,8 +19,6 @@
 		4472A94629F34DA90062B8C6 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472A94529F34DA90062B8C6 /* ScheduleViewController.swift */; };
 		4472A94829F34DB90062B8C6 /* SocialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472A94729F34DB90062B8C6 /* SocialsViewController.swift */; };
 		4472A94C29F3520B0062B8C6 /* Collapsible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472A94B29F3520B0062B8C6 /* Collapsible.swift */; };
-		4472A94F29F353100062B8C6 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 4472A94E29F353100062B8C6 /* Swifter */; };
-		4472A96429F360FB0062B8C6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4472A96329F360FB0062B8C6 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4472A94F29F353100062B8C6 /* Swifter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +137,6 @@
 			);
 			name = Team_Mirror;
 			packageProductDependencies = (
-				4472A94E29F353100062B8C6 /* Swifter */,
 			);
 			productName = SQLiteTest;
 			productReference = 4472A90A29F310DC0062B8C6 /* Team_Mirror.app */;
@@ -215,7 +211,6 @@
 			);
 			mainGroup = 4472A90129F310DC0062B8C6;
 			packageReferences = (
-				4472A94D29F353100062B8C6 /* XCRemoteSwiftPackageReference "Swifter" */,
 			);
 			productRefGroup = 4472A90B29F310DC0062B8C6 /* Products */;
 			projectDirPath = "";
@@ -233,7 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4472A96429F360FB0062B8C6 /* Info.plist in Resources */,
 				4472A91A29F310DE0062B8C6 /* LaunchScreen.storyboard in Resources */,
 				4472A91729F310DE0062B8C6 /* Assets.xcassets in Resources */,
 				4472A91529F310DC0062B8C6 /* Main.storyboard in Resources */,
@@ -602,25 +596,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		4472A94D29F353100062B8C6 /* XCRemoteSwiftPackageReference "Swifter" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mattdonnelly/Swifter.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		4472A94E29F353100062B8C6 /* Swifter */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4472A94D29F353100062B8C6 /* XCRemoteSwiftPackageReference "Swifter" */;
-			productName = Swifter;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4472A90229F310DC0062B8C6 /* Project object */;
 }
